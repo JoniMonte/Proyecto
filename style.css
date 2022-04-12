@@ -105,6 +105,14 @@ footer {
     font-family: 'Roboto', sans-serif;
     color: #ffdee8;
 }
+/* animacion y transicion al footer */
+footer:hover {
+    background-color: #76aeed;
+    transition: background-color 3s;
+}
+.Final:hover{
+    color: #9d9101;
+}
 
 /* Estilos al HTML SERVICIOS */
 .Servicios-container {
