@@ -94,6 +94,13 @@ p {
 #Nosotros {
     text-align: center;
 }
+/* animaciones y transiciones a la sseccion nosotros */
+#Nosotros:hover {
+    background-color: #999;
+    color: #d6d9dc;
+    transition: 3s;
+
+}
 
 /* footer */
 footer {
