@@ -240,3 +240,74 @@ h1 {
     margin: 15px;
     padding: 5px;
 }
+
+
+/* menu responsive */
+.Body{
+        background-color: #719fb0;
+        font-family: "VT323", monospace;
+        margin: 0;
+    }
+.Huno{
+        font-family: "Caveat", cursive;
+        font-size: 2.5rem;
+        color: #fd5f00;
+        margin: 0;
+    }
+      
+.subtitle,nav a{
+        font-size: 1.5rem;
+        color: #f9f8eb;
+        text-transform: uppercase;
+    }
+    .containerWeb {
+        width: 90%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+.container-nav-web {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.Body{
+    background-color: #05004e;
+    padding: 0.8em 0;
+    box-shadow: 2px 2px 10px #f1f6f9;
+    
+}
+.Ul ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    }
+.Ul li {
+    margin-left: 2em;
+}
+.Ul a {
+    text-decoration: none;
+}
+
+.ul a:hover{
+    color: #fd5f00;
+}
+.Ul a:focus {
+    color: #fd5f00;
+}
+@media (max-width: 640px) {
+.Header-container {
+    text-align: center;
+    }
+
+.container{
+    flex-direction: column;
+}
+
+.Nav-Menu{
+    flex-direction: column;
+    }
+
+.Nav-Menu li {
+    margin: 0.8em 0;
+    }
+}
