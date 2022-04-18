@@ -16,6 +16,7 @@ body {
     background-color: #ffdee8;
 }
 .Header-container {
+    background-color: #ffdee8;
     margin: 5px 5px;
     border-bottom: 5px solid #292929;
     position: sticky;
@@ -296,7 +297,10 @@ h1 {
 }
 @media (max-width: 640px) {
 .Header-container {
+    background-color: #9d9101;
     text-align: center;
+    position: sticky;
+    top: 5px;
     }
 
 .container{
@@ -305,9 +309,9 @@ h1 {
 
 .Nav-Menu{
     flex-direction: column;
-    }
-
-.Nav-Menu li {
-    margin: 0.8em 0;
+}
+.Nav-Menu li a {
+    color: #d6d9dc;
+    margin: 0 0;
     }
 }
