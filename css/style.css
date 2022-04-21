@@ -15,5 +15,27 @@
   position: sticky;
   top: 5px;
 }
+.Header-container .Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header-container .Container .Logo {
+  width: 120px;
+}
+.Header-container .Container .Nav-Menu {
+  width: 50%;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+.Header-container .Container .Nav-Menu a {
+  color: #9d9101;
+  text-decoration: none;
+}
+.Header-container .Container .Nav-Menu a:hover {
+  color: tomato;
+}
 
 /*# sourceMappingURL=style.css.map */

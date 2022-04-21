@@ -4,4 +4,27 @@
     border-bottom: 5px solid #292929;
     position: sticky;
     top: 5px;
+    .Container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .Logo {
+            width: 120px;
+        }
+        
+        .Nav-Menu{
+        width: 50%;
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: space-around;
+        & a{
+            color: #9d9101;
+            text-decoration: none;
+        }
+        & a:hover{
+            color: tomato;
+        }
+        }
+    }
 }
