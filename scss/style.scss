@@ -1,8 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+/*esto es un comentario*/ 
 /* Google Fonts barra de navegacion */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-@import "../scss/components/Navbar"
+/*Selector universal*/ 
+@import "../scss/base/selectorU";
+/*navbar*/ 
+@import "../scss/components/Navbar";

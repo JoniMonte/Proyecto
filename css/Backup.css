@@ -30,17 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.Nav-Menu{
-    width: 50%;
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: space-around;
-}
-.Nav-Menu a {
-    color: #9d9101;
-    text-decoration: none;
-}
+
 /* Hover del nav */
 .Nav-Menu a:hover{
     color: tomato;
