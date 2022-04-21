@@ -1,0 +1,30 @@
+.Header-container {
+    background-color: #ffdee8;
+    margin: 5px 5px;
+    border-bottom: 5px solid #292929;
+    position: sticky;
+    top: 5px;
+}
+.Logo {
+    width: 120px;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Nav-Menu{
+    width: 50%;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.Nav-Menu a {
+    color: #9d9101;
+    text-decoration: none;
+}
+/* Hover del nav */
+.Nav-Menu a:hover{
+    color: tomato;
+}
